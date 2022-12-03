@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "lib",
+			"path": "../../../../inClass/Day33-Promises/proj-promise/lib"
+		},
+		{
+			"name": "ex_github-repos",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

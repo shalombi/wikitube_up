@@ -1,0 +1,39 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(243, 167, 4);
+    text-align: center;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 30px;
+}
+
+article {
+    padding: 15px;
+}
+
+.users-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}

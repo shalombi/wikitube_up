@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikitube</title>
+</head>
+
+<body onload="onInit()">
+    <h1>Wikitube</h1>
+
+    <h2 class="video-list-header"> Top 5 searches on you tube</h2>
+    <section class="wikitube-container">
+
+        <section class="videos-container"></section>
+
+        <section class="player-search-container flex flex-column">
+            <input class="search" type="search" placeholder="Search" onchange="onSearch(this.value)">
+            <iframe class="iframe" width="420" height="315" src=""></iframe>
+            <h2 class="wiki-info"> Information from Wikipedia</h2>
+            <div class="containerWiki"></div>
+        </section>
+
+
+
+    </section>
+
+    <script src="./lib/axios.js"></script>
+    <script src="./lib/swal.js"></script>
+
+    <script src="./services/storage.servies.js"></script>
+    <script src="./services/axios.servic.js"></script>
+    <script src="./controller.js"></script>
+</body>
+
+</html>

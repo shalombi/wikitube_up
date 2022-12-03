@@ -1,0 +1,44 @@
+/* general */
+
+body {
+    background-color: rgb(241, 120, 7);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+/* helpers */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+
+/* classes */
+
+.wikitube-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20%;
+}
+
+.search {
+    max-width: 30%;
+    margin-bottom: 12px;
+}
+
+
+.video-list-header,
+.wiki-info {
+    color: rgb(224, 216, 216);
+}
+
+.iframe {
+    cursor: pointer;
+}
